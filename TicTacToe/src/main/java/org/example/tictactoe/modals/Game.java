@@ -1,6 +1,12 @@
 package org.example.tictactoe.modals;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.List;
+
+@Getter
+@Setter
 
 public class Game {
     private Board board;
