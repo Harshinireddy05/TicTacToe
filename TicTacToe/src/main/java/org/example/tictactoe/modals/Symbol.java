@@ -1,5 +1,17 @@
 package org.example.tictactoe.modals;
 
 public class Symbol {
-    Character symbol;
+    private char aChar;
+
+    public Symbol(char aChar) {
+        this.aChar = aChar;
+    }
+
+    public char getaChar() {
+        return aChar;
+    }
+
+    public void setaChar(char aChar) {
+        this.aChar = aChar;
+    }
 }
